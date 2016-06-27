@@ -1,0 +1,27 @@
+/* Main styles */
+h1{
+    /*font-family: 'Comfortaa', cursive;*/
+    /*font-family: 'PT Serif', serif;*/
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.5em;
+}
+/* Header */
+.header{
+    position: absolute;
+    top: 5%;
+}
+.logo{
+    margin-left: 5%;
+}
+.right-nav{
+    margin-top: 5%;
+}
+.slogan{
+    position: absolute;
+    top: 300px;
+}
+
+/* Others */
+.main{
+    color: #01579b;
+}
