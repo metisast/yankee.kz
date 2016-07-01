@@ -27,6 +27,9 @@ ul{
     font-family: 'Open Sans', sans-serif;
     padding: 0;
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+}
 /* Header */
 .header{
     position: absolute;
@@ -344,6 +347,128 @@ ul{
 }
 .portfolio-block-item:hover .portfolio-project-info{
     opacity: 0;
+}
+/* Contacts */
+.contacts-left{
+    margin-top: 40px;
+ }
+.contacts-left h2{
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.contacts-info{
+    height: 80px;
+}
+.contacts-info li{
+    color: #673ab7;
+    font-size: 18px;
+}
+.contacts-info i{
+    color: #673ab7;
+}
+.contacts-socials a{
+    float: left;
+    margin-right: 10px;
+    display: block;
+    width: 41px;
+    height: 41px;
+    transition: all 0.2s ease;
+}
+.contacts-vk{
+    background: url("../images/vk-c.png");
+}
+.contacts-vk:hover{
+    background: url("../images/vk-c-h.png");
+}
+.contacts-fb{
+    background: url("../images/fb-c.png");
+}
+.contacts-fb:hover{
+    background: url("../images/fb-c-h.png");
+}
+.contacts-ig{
+    background: url("../images/ig-c.png");
+}
+.contacts-ig:hover{
+    background: url("../images/ig-c-h.png");
+}
+.contacts-in{
+    background: url("../images/in-c.png");
+}
+.contacts-in:hover{
+    background: url("../images/in-c-h.png");
+}
+.contacts-right{
+    margin-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+.send-form{
+    background: #f1f2f5;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
+    padding: 30px;
+}
+.send-form label{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.send-form input, .send-form textarea{
+    border-color: #673ab7;
+    padding: 20px;
+    border-radius: 0;
+    transition: all 0.2s ease;
+    box-shadow: none;
+}
+.send-form input:focus, .send-form textarea:focus{
+    box-shadow: 0 0 5px #673ab7;
+    border-color: #8f66d9;
+}
+.send-form .btn{
+    width: 100%;
+}
+/* Footer */
+.footer-block{
+    height: 300px;
+    background: #673ab7;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+.footer-logo{
+    margin-top: 50px;
+}
+.footer-about{
+    margin-top: 30px;
+    color: #fff;
+}
+.footer-copyright{
+    margin-top: 220px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.go-top{
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    text-align: center;
+}
+.go-top a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 52px;
+    transition: all 0.2s ease;
+}
+.go-top a:hover{
+    background: #fff;
+    color: #673ab7;
 }
 
 /* Others */
