@@ -174,19 +174,38 @@ ul{
 .work-label.sixth{
     background: url("../images/wn6.png") right top no-repeat;
 }
+/* Team */
 .team-block{
     margin-bottom: 40px;
 }
-/* Team */
 .team-block-item{
-    height: 500px;
+    height: 550px;
     background: #f1f2f5;
     box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+    transition: all 0.2s ease;
 }
 .team-photo{
-    width: 255px;
-    height: 300px;
-    background: url("../images/t1.jpg");
+    width: 100%;
+    height: 350px;
+}
+.team-photo.first{
+    background: url("../images/t1.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.team-photo.second{
+    background: url("../images/t1.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.team-photo.third{
+    background: url("../images/t2.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.team-photo + img{
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    opacity: 0;
 }
 .team-social{
     margin-top: 15px;
@@ -223,7 +242,15 @@ ul{
     background: #673ab7;
 }
 .team-block-item:hover .team-photo{
-    background: url("../images/t1-h.jpg");
+    width: 100%;
+    height: 350px;
+}
+.team-block-item:hover .team-photo.first{
+    background: url("../images/t1-h.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.team-block-item:hover .team-photo + img{
+    opacity: 1;
 }
 .team-block-item:hover h4, .team-block-item:hover h5, .team-block-item:hover p{
     color: #fff;
@@ -240,6 +267,84 @@ ul{
 .team-block-item:hover .team-social .team-in{
     background: url("../images/in-h.png");
 }
+/* Portfolio */
+.portfolio-block{
+    margin-bottom: 40px;
+}
+.portfolio-block-item{
+    height: 540px;
+    background: #f1f2f5;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+}
+.portfolio-photo{
+    width: 100%;
+    height: 250px;
+    border-bottom: 5px solid #ac96d6;
+}
+.portfolio-photo.first{
+    background: url("../images/p1.jpg") no-repeat top center;
+    background-size: 100%;
+    transition: all 0.2s ease;
+}
+.portfolio-photo.second{
+    background: url("../images/p2.jpg") no-repeat top center;
+    background-size: 100%;
+    transition: all 0.2s ease;
+}
+.portfolio-photo.third{
+    background: url("../images/p3.jpg") no-repeat top center;
+    background-size: 100%;
+    transition: all 0.2s ease;
+}
+.portfolio-project-info{
+    position: absolute;
+    right: 40px;
+    top: 0;
+    color: #fff;
+    text-align: right;
+}
+.portfolio-project-info h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.portfolio-rec-photo{
+    position: absolute;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    top: 210px;
+    left: 40px;
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.3);
+}
+.portfolio-project-rec{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.portfolio-project-rec h3{
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
+.portfolio-project-rec-text{
+    margin: 20px 30px 20px 30px;
+    height: 100px;
+}
+.portfolio-block-item:hover .portfolio-photo.first{
+    background: url("../images/p1-h.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.portfolio-block-item:hover .portfolio-photo.second{
+    background: url("../images/p2-h.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.portfolio-block-item:hover .portfolio-photo.third{
+    background: url("../images/p3-h.jpg") no-repeat top center;
+    background-size: 100%;
+}
+.portfolio-block-item:hover .portfolio-project-info{
+    opacity: 0;
+}
 
 /* Others */
 .main{
@@ -255,6 +360,7 @@ ul{
     font-size: 16px;
     border-radius: 7px;
     border-bottom: 2px solid #7c55c4;
+    transition: all 0.2s ease;
 }
 .btn-purple:hover{
     color: #fff;
