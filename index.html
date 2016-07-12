@@ -22,36 +22,77 @@
     <![endif]-->
 </head>
 <body>
+    <!-- Top nav start -->
+    <div class="container-fluid" id="top-nav">
+        <div class="container">
+            <div class="top-nav-block">
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="nav-logo">
+                        <a href="/">
+                            <img src="images/logo-nav.png" alt="Yankee" class="img-fluid"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="top-right-nav text-right">
+                        <a href="#" class="main"><i class="fa fa-navicon fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- Top nav end -->
+    <!-- Right nav start -->
+    <div id="right-nav">
+        <div class="col-md-offset-8 col-sm-offset-6 col-xs-offset-6 col-md-4 col-sm-6 col-xs-6 right-nav-block">
+            <div class="col-md-2 col-xs-3 col-sm-2 right-nav-angle">
+                <a href="#" class="purple"><i class="fa fa-angle-right fa-3x"></i></a>
+            </div>
+            <div class="col-md-10 col-xs-9 col-sm-10 right-nav-logo">
+                <a href="/">
+                    <img src="images/logo-right-nav.png" alt="logo" class="img-fluid center-block"/>
+                </a>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <ul class="col-xs-12 text-center right-nav-links">
+                        <li><a href="#services">Мы предлагаем</a></li>
+                        <li><a href="#work">Реализуем успешный проект</a></li>
+                        <li><a href="#team">Команда</a></li>
+                        <li><a href="#portfolio">Мы сделали</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- Right nav end -->
     <!-- Header start -->
     <div class="container-fluid">
         <div class="row">
-            <img src="images/top-screen.png" alt="Yankee" class="img-responsive"/>
-            <div class="col-md-12 header">
+            <!--<img src="images/top-screen.png" alt="Yankee" class="img-fluid"/>-->
+            <div class="header">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="logo">
-                                <a href="#">
-                                    <img src="images/logo.png" alt="Yankee" class="img-responsive"/>
-                                </a>
-                            </div>
+                    <div class="col-md-6 col-xs-6 col-sm-6">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="images/logo.png" alt="Yankee" class="img-fluid"/>
+                            </a>
                         </div>
-                        <div class="col-xs-6">
-                            <div class="right-nav text-right">
-                                <i class="fa fa-navicon fa-2x main"></i>
-                            </div>
+                    </div>
+                    <div class="col-md-6 col-xs-6 col-sm-6">
+                        <div class="right-nav text-right">
+                            <a href="#" class="main"><i class="fa fa-navicon fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <div class="slogan">
-                    <!--<h1 class="main text-center">Это не работа - это наше хобби...</h1>-->
+                <div class="slogan hidden-lg-down hidden-sm-down">
+                    <h1 class="main text-center">Это не работа - это наше хобби...</h1>
                 </div>
             </div>
             <div class="container">
-                <div class="mouse">
-                    <!--<img src="images/mouse.png" alt="mouse" class="img-responsive"/>-->
+                <div class="mouse hidden-lg-down hidden-sm-down">
+                    <img src="images/mouse.png" alt="mouse" class="img-fluid"/>
                 </div>
             </div>
         </div>
@@ -64,128 +105,116 @@
                 <h5 class="second">...а остальные просто делают сайты</h5>
             </div>
             <!-- S1 -->
-            <div class="col-md-4 service-block">
+            <div class="col-md-4 col-sm-6 col-xs-12 service-block">
                 <div class="service-block-item">
                     <div class="col-md-12 text-center">
-                        <img src="images/s1.png" alt=""/>
+                        <img src="images/s1.png" alt="" class="img-fluid"/>
                     </div>
                     <div class="col-md-12 text-center">
                         <h3 class="text-center">Сайт визитка</h3>
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li><i class="fa fa-sticky-note-o"></i> Простой</li>
-                            <li><i class="fa fa-send"></i> Компактный</li>
-                            <li><i class="fa fa-tag"></i> Удобный</li>
+                            <li>Самый простой способ заявить о себе</li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button class="btn btn-purple">Заказать от 20.000</button>
+                        <button class="btn btn-purple btn-block">Заказать от 20.000</button>
                     </div>
                 </div>
             </div>
             <!-- S2 -->
-            <div class="col-md-4 service-block">
+            <div class="col-md-4 col-sm-6 col-xs-12 service-block">
                 <div class="service-block-item">
                     <div class="col-md-12 text-center">
-                        <img src="images/s2.png" alt=""/>
+                        <img src="images/s2.png" alt="" class="img-fluid"/>
                     </div>
                     <div class="col-md-12 text-center">
                         <h3 class="text-center">Landing-page</h3>
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li><i class="fa fa-sticky-note-o"></i> Эффективный</li>
-                            <li><i class="fa fa-send"></i> Увеличение аудитории</li>
-                            <li><i class="fa fa-tag"></i> Больше клиетов</li>
+                            <li>Основа успешного поиска клиента и рассказе о себе</li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button class="btn btn-purple">Заказать от 50.000</button>
+                        <button class="btn btn-purple btn-block">Заказать от 50.000</button>
                     </div>
                 </div>
             </div>
             <!-- S3 -->
-            <div class="col-md-4 service-block">
+            <div class="col-md-4 col-sm-6 col-xs-12 service-block">
                 <div class="service-block-item">
                     <div class="col-md-12 text-center">
-                        <img src="images/s3.png" alt=""/>
+                        <img src="images/s3.png" alt="" class="img-fluid"/>
                     </div>
                     <div class="col-md-12 text-center">
                         <h3 class="text-center">Корпоративный сайт</h3>
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li><i class="fa fa-sticky-note-o"></i> Простой</li>
-                            <li><i class="fa fa-send"></i> Компактный</li>
-                            <li><i class="fa fa-tag"></i> Удобный</li>
+                            <li>Ваш новый филиал в интернете</li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button class="btn btn-purple">Заказать от 100.000</button>
+                        <button class="btn btn-purple btn-block">Заказать от 100.000</button>
                     </div>
                 </div>
             </div>
             <!-- S4 -->
-            <div class="col-md-4 service-block">
+            <div class="col-md-4 col-sm-6 col-xs-12 service-block">
                 <div class="service-block-item">
                     <div class="col-md-12 text-center">
-                        <img src="images/s2.png" alt=""/>
+                        <img src="images/s4.png" alt="" class="img-fluid"/>
                     </div>
                     <div class="col-md-12 text-center">
-                        <h3 class="text-center">Landing-page</h3>
+                        <h3 class="text-center">Интернет магазин</h3>
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li><i class="fa fa-sticky-note-o"></i> Эффективный</li>
-                            <li><i class="fa fa-send"></i> Увеличение аудитории</li>
-                            <li><i class="fa fa-tag"></i> Больше клиетов</li>
+                            <li>Новая точка продаж без перерыва и выходных</li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button class="btn btn-purple">Заказать от 50.000</button>
+                        <button class="btn btn-purple btn-block">Заказать от 200.000</button>
                     </div>
                 </div>
             </div>
             <!-- S5 -->
-            <div class="col-md-4 service-block">
+            <div class="col-md-4 col-sm-6 col-xs-12 service-block">
                 <div class="service-block-item">
                     <div class="col-md-12 text-center">
-                        <img src="images/s3.png" alt=""/>
+                        <img src="images/s5.png" alt="" class="img-fluid"/>
                     </div>
                     <div class="col-md-12 text-center">
-                        <h3 class="text-center">Корпоративный сайт</h3>
+                        <h3 class="text-center">Мобильное приложение</h3>
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li><i class="fa fa-sticky-note-o"></i> Простой</li>
-                            <li><i class="fa fa-send"></i> Компактный</li>
-                            <li><i class="fa fa-tag"></i> Удобный</li>
+                            <li></li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button class="btn btn-purple">Заказать от 100.000</button>
+                        <button class="btn btn-purple btn-block">Заказать от 300.000</button>
                     </div>
                 </div>
             </div>
             <!-- S6 -->
-            <div class="col-md-4 service-block">
+            <div class="col-md-4 col-sm-6 col-xs-12 service-block">
                 <div class="service-block-item">
                     <div class="col-md-12 text-center">
-                        <img src="images/s2.png" alt=""/>
+                        <img src="images/s6.png" alt="" class="img-fluid"/>
                     </div>
                     <div class="col-md-12 text-center">
-                        <h3 class="text-center">Landing-page</h3>
+                        <h3 class="text-center">Площадка для бизнеса</h3>
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li><i class="fa fa-sticky-note-o"></i> Эффективный</li>
-                            <li><i class="fa fa-send"></i> Увеличение аудитории</li>
-                            <li><i class="fa fa-tag"></i> Больше клиетов</li>
+                            <li></li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button class="btn btn-purple">Заказать от 50.000</button>
+                        <button class="btn btn-purple btn-block">Заказать от 500.000</button>
                     </div>
                 </div>
             </div>
@@ -194,11 +223,11 @@
     <!-- Slogan block start -->
     <div class="container-fluid">
         <div class="row">
-            <div class="slogan-block">
+            <div class="slogan-block parallax-window" data-parallax="scroll" data-image-src="images/slogan1.jpg">
                 <div class="col-md-12 text-center">
                     <h1>Вместо тысячи слов...</h1>
                 </div>
-                <div class="slogan-mouse"></div>
+                <div class="slogan-mouse hidden-lg-down hidden-sm-down"></div>
             </div>
         </div>
     </div><!-- Slogan block end -->
@@ -212,21 +241,21 @@
             <!-- W1 -->
             <div class="col-md-6 work-block-odd">
                 <div class="work-label first"></div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-12 col-sm-12">
                     <h3>Техническое задание</h3>
                     <p>Мы вместе изучим ваши потребности, ведь - «то, что будет на входе, и то, что получится на выходе» - основа нашего успешного сотрудничества.</p>
                 </div>
-                <div class="col-md-2">
-                    <img src="images/w1.png" alt="Техническое задание" class="img-responsive"/>
+                <div class="col-md-2 hidden-lg-down hidden-sm-down">
+                    <img src="images/w1.png" alt="Техническое задание" class="img-fluid"/>
                 </div>
             </div>
             <!-- W2 -->
             <div class="col-md-6 work-block-even">
                 <div class="work-label second"></div>
-                <div class="col-md-2">
-                    <img src="images/w2.png" alt="Дизайн" class="img-responsive"/>
+                <div class="col-md-2 hidden-lg-down hidden-sm-down">
+                    <img src="images/w2.png" alt="Дизайн" class="img-fluid"/>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-12 col-sm-12">
                     <h3>Дизайн</h3>
                     <p>Основываясь на взаимном представлении, мы делаем визуально приятный, понятный, удобный и легкий в использовании интерфейс.</p>
                 </div>
@@ -234,21 +263,21 @@
             <!-- W3 -->
             <div class="col-md-6 work-block-odd">
                 <div class="work-label third"></div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-12 col-sm-12">
                     <h3>Верстка</h3>
                     <p>Мы гарантируем, что ваш проект откроется в любых браузерах, устройствах и гаджетах без искажений</p>
                 </div>
-                <div class="col-md-2">
-                    <img src="images/w3.png" alt="Верстка" class="img-responsive"/>
+                <div class="col-md-2 hidden-lg-down hidden-sm-down">
+                    <img src="images/w3.png" alt="Верстка" class="img-fluid"/>
                 </div>
             </div>
             <!-- W4 -->
             <div class="col-md-6 work-block-even">
                 <div class="work-label fourth"></div>
-                <div class="col-md-2">
-                    <img src="images/w4.png" alt="Разработка" class="img-responsive"/>
+                <div class="col-md-2 hidden-lg-down hidden-sm-down">
+                    <img src="images/w4.png" alt="Разработка" class="img-fluid"/>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-12 col-sm-12">
                     <h3>Разработка</h3>
                     <p>Проект будет создаваться с использованием передовых методов программирования, о которых вы не могли даже и догадываться.</p>
                 </div>
@@ -256,21 +285,21 @@
             <!-- W5 -->
             <div class="col-md-6 work-block-odd">
                 <div class="work-label fifth"></div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-12 col-sm-12">
                     <h3>Тестирование</h3>
                     <p>Скрупулёзно и тщательно проверяем весь аспект вашего сайта для устранения различного рода недостатков - если конечно они возникнут.</p>
                 </div>
-                <div class="col-md-2">
-                    <img src="images/w5.png" alt="Тестирование" class="img-responsive"/>
+                <div class="col-md-2 hidden-lg-down hidden-sm-down">
+                    <img src="images/w5.png" alt="Тестирование" class="img-fluid"/>
                 </div>
             </div>
             <!-- W6 -->
             <div class="col-md-6 work-block-even">
                 <div class="work-label sixth"></div>
-                <div class="col-md-2">
-                    <img src="images/w6.png" alt="Готовое решение" class="img-responsive"/>
+                <div class="col-md-2 hidden-lg-down hidden-sm-down">
+                    <img src="images/w6.png" alt="Готовое решение" class="img-fluid"/>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 col-xs-12 col-sm-12">
                     <h3>Готовое решение</h3>
                     <p>Ваш проект готов и публикуется в просторах интернета для реализации ваших потребностей.</p>
                 </div>
@@ -280,14 +309,14 @@
     <!-- Slogan block start -->
     <div class="container-fluid">
         <div class="row">
-            <div class="slogan-block">
-                <div class="col-md-6 text-right">
+            <div class="slogan-block parallax-window" data-parallax="scroll" data-image-src="images/slogan2.jpg">
+                <div class="col-md-6 col-sm-12 col-xs-12 text-right">
                     <h1>Все еще думаешь?</h1>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12 col-xs-12 ">
                     <button class="btn btn-free-consul">Заказать <span>бесплатную</span> консультацию</button>
                 </div>
-                <div class="slogan-mouse"></div>
+                <div class="slogan-mouse hidden-lg-down hidden-sm-down"></div>
             </div>
         </div>
     </div><!-- Slogan block end -->
@@ -334,6 +363,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="team-photo second"></div>
+                            <img src="images/t-brain.png" alt="brain"/>
                         </div>
                         <div class="col-md-12">
                             <div class="team-social">
@@ -363,6 +393,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="team-photo third"></div>
+                            <img src="images/t-flash.png" alt="brain"/>
                         </div>
                         <div class="col-md-12">
                             <div class="team-social">
@@ -391,7 +422,8 @@
                 <div class="team-block-item">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="team-photo first"></div>
+                            <div class="team-photo fourth"></div>
+                            <img src="images/t-balb.png" alt="brain"/>
                         </div>
                         <div class="col-md-12">
                             <div class="team-social">
@@ -420,7 +452,8 @@
                 <div class="team-block-item">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="team-photo first"></div>
+                            <div class="team-photo fifth"></div>
+                            <img src="images/t-balb.png" alt="brain"/>
                         </div>
                         <div class="col-md-12">
                             <div class="team-social">
@@ -449,7 +482,8 @@
                 <div class="team-block-item">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="team-photo first"></div>
+                            <div class="team-photo sixth"></div>
+                            <img src="images/t-pulse.png" alt="brain"/>
                         </div>
                         <div class="col-md-12">
                             <div class="team-social">
@@ -478,11 +512,11 @@
     <!-- Slogan block start -->
     <div class="container-fluid">
         <div class="row">
-            <div class="slogan-block">
+            <div class="slogan-block parallax-window" data-parallax="scroll" data-image-src="images/slogan3.jpg">
                 <div class="col-md-12 text-center">
                     <h1>Привлекательный сайт - эффективный сайт</h1>
                 </div>
-                <div class="slogan-mouse"></div>
+                <div class="slogan-mouse hidden-lg-down hidden-sm-down"></div>
             </div>
         </div>
     </div><!-- Slogan block end -->
@@ -494,7 +528,7 @@
                 <h5 class="second">Проекты, которые работают</h5>
             </div>
             <!-- P1 -->
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-block">
+            <div class="col-md-4 col-sm-12 col-xs-12 portfolio-block">
                 <div class="portfolio-block-item">
                     <div class="row">
                         <div class="col-md-12">
@@ -515,7 +549,7 @@
                                 </p>
                             </div>
                             <div class="portfolio-project-rec-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aspernatur consectetur, culpa cupiditate deserunt dolor earum eum incidunt, nesciunt odit quaerat quos sed sit soluta!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aspernatur consectetur, culpa cupiditate</p>
                             </div>
                         </div>
                         <div class="col-md-12 text-center">
@@ -525,7 +559,7 @@
                 </div>
             </div>
             <!-- P2 -->
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-block">
+            <div class="col-md-4 col-sm-12 col-xs-12 portfolio-block">
                 <div class="portfolio-block-item">
                     <div class="row">
                         <div class="col-md-12">
@@ -546,7 +580,7 @@
                                 </p>
                             </div>
                             <div class="portfolio-project-rec-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A excepturi fugit id laboriosam neque provident quia quos reiciendis veniam voluptatem?</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A excepturi fugit id eiciendis veniam voluptatem?</p>
                             </div>
                         </div>
                         <div class="col-md-12 text-center">
@@ -556,7 +590,7 @@
                 </div>
             </div>
             <!-- P3 -->
-            <div class="col-md-4 col-sm-6 col-xs-12 portfolio-block">
+            <div class="col-md-4 col-sm-12 col-xs-12 portfolio-block">
                 <div class="portfolio-block-item">
                     <div class="row">
                         <div class="col-md-12">
@@ -591,41 +625,43 @@
     <!-- Contacts start -->
     <div class="container">
         <div id="contacts">
-            <div class="col-md-6 col-sm-6 col-xs-12 contacts-left">
+            <div class="col-md-6 col-sm-12 col-xs-12 contacts-left">
                 <div class="col-md-12">
                     <h2>Контакты</h2>
                 </div>
                 <div class="col-md-12">
-                    <div class="contacts-info">
-                        <div class="col-md-1"><i class="fa fa-phone fa-2x"></i></div>
-                        <div class="col-md-11">
-                            <ul>
-                                <li>+7 (775) 000 00 00</li>
-                                <li>+7 (701) 000 00 00</li>
-                            </ul>
+                    <div class="contacts-info col-md-12 col-sm-6 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-1 col-xs-1 col-sm-1"><i class="fa fa-phone fa-2x"></i></div>
+                            <div class="col-md-11 col-xs-10 col-sm-10">
+                                <p>+7 (771) 123 46 95</p>
+                                <p>+7 (775) 785 59 91</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="contacts-info">
-                        <div class="col-md-1"><i class="fa fa-envelope fa-2x"></i></div>
-                        <div class="col-md-11">
-                            <ul>
-                                <li>info@yankee.kz</li>
-                            </ul>
+                    <div class="contacts-info col-md-12 col-sm-6 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-1 col-xs-1 col-sm-1"><i class="fa fa-envelope fa-2x"></i></div>
+                            <div class="col-md-11 col-xs-10 col-sm-10">
+                                <p>info@yankee.kz</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="contacts-info">
-                        <div class="col-md-12">
-                            <div class="contacts-socials">
-                                <a href="#" class="contacts-vk"></a>
-                                <a href="#" class="contacts-fb"></a>
-                                <a href="#" class="contacts-ig"></a>
-                                <a href="#" class="contacts-in"></a>
+                    <div class="contacts-info col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="contacts-socials">
+                                    <a href="#" class="contacts-vk"></a>
+                                    <a href="#" class="contacts-fb"></a>
+                                    <a href="#" class="contacts-ig"></a>
+                                    <a href="#" class="contacts-in"></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12 contacts-right">
+            <div class="col-md-6 col-sm-12 col-xs-12 contacts-right">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-10">
                         <form class="send-form">
@@ -654,9 +690,9 @@
     <div class="container-fluid">
         <div id="footer">
             <div class="row">
-                <div class="col-md-12 footer-block">
+                <div class="col-md-12 col-xs-12 col-sm-12 footer-block">
                     <div class="container">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-xs-12 col-sm-12">
                             <div class="footer-logo">
                                 <a href="#"><img src="images/logo-f.png" alt="Yankee"/></a>
                             </div>
@@ -664,12 +700,12 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi cumque deserunt eveniet exercitationem, expedita explicabo ipsam iste laboriosam maiores minima, nihil nostrum quibusdam rem repellendus soluta temporibus tenetur voluptates!</p>
                             </div>
                         </div>
-                        <div class="col-md-6 text-right">
+                        <div class="col-md-6 col-xs-12 col-sm-12 text-right">
                             <div class="footer-copyright">
                                 <p>Yankee.kz 2016</p>
                             </div>
                         </div>
-                        <div class="go-top">
+                        <div class="go-top hidden-sm-down hidden-xs-down">
                             <a href="#"><i class="fa fa-angle-up fa-2x"></i></a>
                         </div>
                     </div>
@@ -678,7 +714,11 @@
         </div>
     </div><!-- Footer end -->
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/parallax.js-1.4.2/parallax.min.js"></script>
+    <script src="js/top-nav.js"></script>
+    <script src="js/right-nav.js"></script>
 </body>
 </html>

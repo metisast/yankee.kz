@@ -1,0 +1,89 @@
+/* Responsive styles */
+@media screen and (max-width:768px){
+    /* Target landscape smartphones, portrait tablets, narrow desktops */
+    h2{
+        font-size: 28px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    /* Right nav */
+    .right-nav-links li a{
+        font-size: 13px;
+    }
+    /* Header */
+    .header{
+        height: 400px;
+    }
+    .right-nav{
+        margin-right: 35px;
+    }
+    /* Service */
+
+    /* Slogan */
+    .slogan{
+        top: 12%;
+        left: 5%;
+    }
+    .slogan h1{
+        font-size: 20px;
+    }
+    .slogan-block{
+        text-align: center;
+    }
+    .slogan-block h1{
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .slogan-block button{
+        margin-top: 0px;
+    }
+    /* Button */
+    .btn-free-consul{
+        background: transparent;
+        border: 2px solid #fff;
+        border-radius: 7px;
+        color: #fff;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    /* Work */
+    .work-block-odd h3{
+        margin-left: 50px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .work-block-even p{
+        padding-right: 0;
+        padding-top: 0px;
+    }
+    .work-block-odd p{
+        margin-left: 0;
+        padding-top: 30px;
+    }
+    .work-label{
+        position: absolute;
+        width: 50px;
+        height: 53px;
+        background-size: 100%;
+    }
+    /* Contacts */
+    .contacts-info p{
+        padding-left: 10px;
+    }
+    /* Footer */
+    .footer-logo{
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width:380px){
+    .header{
+        height: 220px;
+    }
+    .right-nav{
+        margin-top: 35px;
+        margin-right: 30px;
+    }
+}
