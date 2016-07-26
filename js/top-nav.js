@@ -7,11 +7,11 @@ $(function(){
             if ($(this).scrollTop() > top_show) $('#top-nav').fadeIn();
             else $('#top-nav').fadeOut();
         });
-        /*$('#top').click(function () { // При клике по кнопке "Наверх" попадаем в эту функцию
-            /!* Плавная прокрутка наверх *!/
+        $('.go-top').click(function () { // При клике по кнопке "Наверх" попадаем в эту функцию
+            /* Плавная прокрутка наверх */
             $('body, html').animate({
                 scrollTop: 0
             }, delay);
-        });*/
+        });
     });
 });

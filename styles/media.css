@@ -1,4 +1,13 @@
 /* Responsive styles */
+@media screen and (max-width:1367px){
+    .header{
+        height: 800px;
+    }
+    .right-nav{
+        margin-top: 35px;
+        margin-right: 30px;
+    }
+}
 @media screen and (max-width:768px){
     /* Target landscape smartphones, portrait tablets, narrow desktops */
     h2{
@@ -68,6 +77,10 @@
         width: 50px;
         height: 53px;
         background-size: 100%;
+    }
+    /* Btn */
+    .btn-free-consul{
+        margin-top: 15px;
     }
     /* Contacts */
     .contacts-info p{

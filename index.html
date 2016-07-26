@@ -43,16 +43,22 @@
     </div><!-- Top nav end -->
     <!-- Right nav start -->
     <div id="right-nav">
-        <div class="col-md-offset-8 col-sm-offset-6 col-xs-offset-6 col-md-4 col-sm-6 col-xs-6 right-nav-block">
-            <div class="col-md-2 col-xs-3 col-sm-2 right-nav-angle">
-                <a href="#" class="purple"><i class="fa fa-angle-right fa-3x"></i></a>
-            </div>
-            <div class="col-md-10 col-xs-9 col-sm-10 right-nav-logo">
-                <a href="/">
-                    <img src="images/logo-right-nav.png" alt="logo" class="img-fluid center-block"/>
-                </a>
-            </div>
+        <div class="col-md-offset-8 col-sm-offset-6 col-xs-offset-4 col-md-4 col-sm-6 col-xs-8 right-nav-block">
             <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-2 col-sm-2 col-xs-3">
+                        <div class="right-nav-angle">
+                            <a href="#" class="purple"><i class="fa fa-angle-right fa-3x"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-10 col-xs-9 col-sm-10 right-nav-logo">
+                        <a href="/">
+                            <img src="images/logo-right-nav.png" alt="logo" class="img-fluid center-block"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="row">
                     <ul class="col-xs-12 text-center right-nav-links">
                         <li><a href="#services">Мы предлагаем</a></li>
@@ -191,7 +197,7 @@
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li></li>
+                            <li>Общение с клиентом на расстоянии вытянутой руки 24 часа в сутки </li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
@@ -210,7 +216,7 @@
                     </div>
                     <div class="col-md-12">
                         <ul class="text-center">
-                            <li></li>
+                            <li>Создай свой Бизнес Центр и объединяй Бизнес-Сообщества</li>
                         </ul>
                     </div>
                     <div class="col-md-12 text-center">
@@ -314,7 +320,7 @@
                     <h1>Все еще думаешь?</h1>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12 ">
-                    <button class="btn btn-free-consul">Заказать <span>бесплатную</span> консультацию</button>
+                    <a href="#contacts" class="btn btn-free-consul">Заказать <span>бесплатную</span> консультацию</a>
                 </div>
                 <div class="slogan-mouse hidden-lg-down hidden-sm-down"></div>
             </div>
@@ -499,8 +505,8 @@
                         </div>
                         <div class="col-md-12">
                             <div class="team-content text-center">
-                                <h4>Игорь</h4>
-                                <h5 class="main">Маркетолог</h5>
+                                <h4>Рустам</h4>
+                                <h5 class="main">Программист</h5>
                                 <p>«Мы вместе от начала и до конца»</p>
                             </div>
                         </div>
@@ -635,7 +641,7 @@
                             <div class="col-md-1 col-xs-1 col-sm-1"><i class="fa fa-phone fa-2x"></i></div>
                             <div class="col-md-11 col-xs-10 col-sm-10">
                                 <p>+7 (771) 123 46 95</p>
-                                <p>+7 (775) 785 59 91</p>
+                                <p>+7 (775) 785 59 01</p>
                             </div>
                         </div>
                     </div>
@@ -664,7 +670,7 @@
             <div class="col-md-6 col-sm-12 col-xs-12 contacts-right">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-10">
-                        <form class="send-form">
+                        <form class="send-form" action="mailer.php" method="post">
                             <div class="form-group send-form-title">
                                 <label>Оставить заявку</label>
                             </div>
@@ -678,7 +684,7 @@
                                 <textarea name="message" cols="20" rows="5" required class="form-control" placeholder="Текст сообщения"></textarea>
                             </div>
                             <div class="form-group">
-                                <button class="btn btn-purple">Отправить</button>
+                                <button class="btn btn-purple" name="submit" id="btn-send">Отправить</button>
                             </div>
                         </form>
                     </div>
@@ -697,12 +703,13 @@
                                 <a href="#"><img src="images/logo-f.png" alt="Yankee"/></a>
                             </div>
                             <div class="footer-about">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi cumque deserunt eveniet exercitationem, expedita explicabo ipsam iste laboriosam maiores minima, nihil nostrum quibusdam rem repellendus soluta temporibus tenetur voluptates!</p>
+                                <p>Мы любим творчество и нестандартный подход в реализации проектов – это наше хобби, и нам не интересна работа, которая не требует 100% отдачи! С нами Вам будет легко реализовать в жизнь - самый нереальный проект!</p>
                             </div>
                         </div>
                         <div class="col-md-6 col-xs-12 col-sm-12 text-right">
                             <div class="footer-copyright">
                                 <p>Yankee.kz 2016</p>
+                                <p>TOO "Astana-Systems"</p>
                             </div>
                         </div>
                         <div class="go-top hidden-sm-down hidden-xs-down">
@@ -713,12 +720,33 @@
             </div>
         </div>
     </div><!-- Footer end -->
+    <!-- Modal start -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Сообщение</h4>
+                </div>
+                <div class="modal-body">
+                    Спасибо, ваша заявка принята!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div><!-- Model end -->
 
+    <!-- Scripts -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="https://www.atlasestateagents.co.uk/javascript/tether.min.js"></script><!-- Tether for Bootstrap -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/parallax.js-1.4.2/parallax.min.js"></script>
     <script src="js/top-nav.js"></script>
     <script src="js/right-nav.js"></script>
+    <script src="js/send.js"></script>
 </body>
 </html>
